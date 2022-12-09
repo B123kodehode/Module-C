@@ -1,0 +1,35 @@
+body {
+    color-scheme: dark;
+   text-align: center;
+   background-color: #000000;
+   color: #ffffff;
+   justify-content: center;
+   text-shadow:1px 5px 10px #ffffffc2;
+   background-image: url(./wallpaper/pic1.jpg);
+   background-blend-mode:screen;
+   background-repeat: no-repeat;
+   background-position: top;
+   
+}
+#btn-wrapper {
+    
+    position: relative;
+    bottom: -1.5rem;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#btn-el1, #btn-el2, #btn-el3, #btn-stop {
+    margin-left: 15px   ;
+   padding: 2px 15px;
+   font-weight: bold;
+}
+
+#btn-el1:hover, #btn-el2:hover, #btn-el3:hover, #btn-stop:hover {
+    margin-left: 15px   ;
+   padding: 2px 15px;
+   font-weight: bold;
+   text-shadow: 1px 2px 1px #ffffff79;
+   border: 3px solid rgb(0, 0, 0);
+}
