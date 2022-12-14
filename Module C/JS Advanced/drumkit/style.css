@@ -2,13 +2,14 @@ body {
     color-scheme: dark;
    text-align: center;
    background-color: #000000;
-   color: #fcfefd8e;
+   color: #7fa090b7;
    justify-content: center;
    text-shadow:1px 5px 10px #1591b492;
    background-image: url(./wallpaper/pic2.jpg);
    background-blend-mode:screen;
    background-repeat: no-repeat;
    background-position: top;
+   overflow: hidden;
    
 }
 #btn-wrapper {
@@ -39,4 +40,9 @@ body {
     color: #ffffff;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
+}
+
+#fire {
+    visibility: hidden;
+  
 }

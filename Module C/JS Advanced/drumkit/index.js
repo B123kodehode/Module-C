@@ -15,9 +15,14 @@ function stop() {
     document.getElementById("metal1").pause();
     document.getElementById("metal2").pause();
     document.getElementById("ambient").pause();
-    /*alert("Metal can never truly be stopped!")*/
+    alert("Metal can never truly be stopped!")
 }
 
+setTimeout(image, 10000)
 
-setTimeout()
+  
+
+function image() {
+    document.getElementById("fire").style.visibility = "visible";
+}
 
