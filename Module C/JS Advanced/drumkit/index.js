@@ -10,9 +10,14 @@ document.getElementById("btn-el3").addEventListener("click", function() {
     document.getElementById("ambient").play();
 });
 
+
 function stop() {
     document.getElementById("metal1").pause();
     document.getElementById("metal2").pause();
     document.getElementById("ambient").pause();
-    alert("Metal can never truly be stopped!")
+    /*alert("Metal can never truly be stopped!")*/
 }
+
+
+setTimeout()
+
