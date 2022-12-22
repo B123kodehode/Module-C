@@ -1,3 +1,13 @@
+body {
+    
+}
+
 h1 {
     color: #bc523f;
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    border-radius: 10px;
 }
